@@ -68,6 +68,5 @@ public class WebViewerExtensions : MonoBehaviour
         string url = System.IO.Path.Combine(Application.streamingAssetsPath + "/" + WebPage.Instance.PageName[(int)_localPageType]);
         Debug.Log(url);
         return "file://" + url.Replace(" ", "%20");
-        //return url;
     }
 }
