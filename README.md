@@ -12,3 +12,6 @@ ARKitのマーカー検出拡張。複数のImageAnchorを管理する拡張メ�
 
 #### AwaitTriggerExtensions.cs
 Taskのキャンセル処理を楽に行う拡張メソッド
+
+#### WebViewExtensions.cs
+unity web-viewの拡張メソッド　Webページ表示（ブラウザに飛ぶ、実機内）、ローカルページ表示対応
